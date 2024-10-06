@@ -14,7 +14,7 @@ function Logo() {
         size: "lg",
       })}
     >
-      <SwitchCamera className="h-6 w-6 shrink-0 lg:hidden" />
+      <SwitchCamera className="h-6 w-6 shrink-0 lg:hidden " />
       <p className={`font-semibold text-xl hidden lg:block`}>Instogrim</p>
     </Link>
   );
